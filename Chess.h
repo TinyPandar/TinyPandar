@@ -48,7 +48,9 @@ class Queen : public Chess{
 };
 class Knight : public Chess{
     bool move(){
+
   cout<<"233";
+
     }
 };
 class Bishop : public Chess{
@@ -68,6 +70,7 @@ class Pawn : public Chess{
 };
 //工厂模式生成棋子
 class ChessGenerator{
+   int a;
 
 
 };
